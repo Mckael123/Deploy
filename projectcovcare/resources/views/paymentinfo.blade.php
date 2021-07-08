@@ -34,7 +34,7 @@
                 <h2>BRI covcare bank account number: 99-45-06344453-32</h2>
                 <h2>BNI covcare bank account number: 022-35-0773453-003</h2>
                 <h2>Order ID : {{$order->first()->id}}</h2>
-                <h2>Your total bill : Rp. {{$order->first()->cost}}</h2>
+                <h2>Your total bill : Rp. {{number_format($order->first()->cost,0,',','.')}}</h2>
             </div>
             <div class="tombol">
                <a href="{{url('/payment')}}"> <button class="confirmation">Payment Confirmation</button></a>
