@@ -1,0 +1,261 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    background: #63338A;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 80px;
+    font-weight: 700;
+}
+
+.logo {
+    width: 76px;
+    height: 62px;
+    left: 40px;
+    top: 8.5px;
+    margin: auto;
+}
+
+.header .inactive {
+    color: white;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+
+}
+
+.header .inactive:hover {
+    color: #ffa700;
+}
+
+.humicon {
+    width: 46px;
+    height: 46px;
+    right: 40px;
+    top: 11px;
+    margin: auto;
+}
+
+.humicon img{
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    vertical-align: middle;
+}
+.login {
+    width: 85px;
+    height: 50px;
+    left: 1176px;
+    top: 12px;
+    background: #FABA18;
+    border-radius: 80px;
+    margin: auto;
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+.login:active {
+    background: #D39A07;
+}
+
+.logintxt {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.headproduct {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* height: 280px; */
+    display: flex;
+    background: linear-gradient(180deg, #63338A 0%, rgba(224, 193, 230, 0) 100%);
+}
+
+#stayhome {
+    margin: auto;
+    display: flex;
+    width: 80%;
+    height: auto;
+}
+
+#virus {
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+#masker {
+    width: 50%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: auto;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    grid-column-gap: 60px;
+    grid-row-gap: 50px;
+    text-align: center;
+}
+
+.content button {
+    width: 73.21px;
+    height: 29px;
+    background: #FABA18;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    border: none;
+}
+
+.content h3 {
+    margin: 0px;
+}
+
+.content h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #A6A6A6;
+}
+
+hr {
+    margin-top: 50px;
+    width: 1028.01px;
+    height: 0px;
+    border: 1px solid #D7D7D7;
+}
+
+.produk img {
+    transition: 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.produk :hover {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 30%);
+    transform: translateY(-1rem);
+}
+.addbtn button{
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.addbtn button:hover{
+    background-color: #ffa700;
+}
+.page {
+    display: grid;
+    grid-template-columns: 23px 23px 23px 23px 23px;
+    margin-top: 5px;
+}
+
+.page a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    color: #A6A6A6;
+    text-decoration: none;
+}
+
+.footer {
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: 700;
+    height: 135px;
+    width: 100%;
+    background: #331849;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+}
+
+.connect {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: auto;
+    margin-left: 2rem;
+    text-align: center;
+    gap: 2px;
+}
+
+.contact {
+    margin: auto;
+    margin-right: 5rem;
+}
+
+.baris {
+    display: grid;
+    grid-template-columns: 10% 85%;
+    padding: 10px;
+}
+
+.rightfooter {
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+
+.contus {
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}

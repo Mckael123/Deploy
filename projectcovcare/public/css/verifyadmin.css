@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background: #E0C1E6;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+/* header area */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    background: #714E8E;
+    width: 100%;
+
+}
+
+.nav {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 20px 0px 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    height: 3.5%;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 20px;
+    height: 2%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 20px;
+}
+
+.menu-font {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 30px;
+}
+
+.content {
+    align-items: center;
+    width: 700px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.con-title {
+    width: 839px;
+    height: 44px;
+    left: 212px;
+    top: 161px;
+    text-align: center;
+}
+
+.title {
+    width: 361px;
+    height: 37px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.line {
+    width: 127px;
+    height: 5px;
+    background: #3A3939;
+}
+
+.form {
+    width: 75%;
+    height: 100%;
+    margin-top: 3rem;
+}
+
+.subtittle {
+    width: 79px;
+    height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+form input {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    border-radius: 10px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: flex-start;
+    padding: 0.75rem 1rem;
+    /* color: black; */
+}
+
+::placeholder {
+    color: #ACACAC;
+}
+
+.form1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.method {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    border-radius: 10px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: flex-start;
+    padding: 2px 1rem;
+}
+
+.form select {
+    color: black;
+}
+
+button {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.btn_submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.btn_submit.greenbtn{
+    background: green;
+}
+.btn_submit.redbtn{
+    background: rgb(230, 26, 26);
+}
+.btn_submit.yellowbtn{
+    background: rgb(202, 200, 51);
+}
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_submit.greenbtn:active {
+    background-color: rgb(19, 102, 19);
+    color: white;
+}
+.btn_submit.redbtn:active {
+    background-color: rgb(168, 31, 31);
+    color: white;
+}
+.btn_submit.yellowbtn:active {
+    background-color: rgb(141, 139, 31);
+    color: white;
+}
