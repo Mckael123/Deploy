@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
+/* body {
+  font-family: 'Open Sans', sans-serif;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F7ECE1;
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header area */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    width: 100%;
+}
+
+.header {
+    
+    width: 100%;
+    background: #63338A;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 80px;
+    font-weight: 700;
+}
+
+.logo {
+    width: 76px;
+    height: 62px;
+    left: 40px;
+    top: 8.5px;
+    margin: auto;
+}
+
+.header .inactive {
+    color: white;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+
+}
+
+.header .inactive:hover {
+    color: #ffa700;
+}
+
+.humicon {
+    width: 46px;
+    height: 46px;
+    right: 40px;
+    top: 11px;
+    margin: auto;
+}
+.humicon img{
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    vertical-align: middle;
+}
+.login {
+    width: 85px;
+    height: 50px;
+    left: 1176px;
+    top: 12px;
+    background: #FABA18;
+    border-radius: 80px;
+    margin: auto;
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+.login:active {
+    background: #D39A07;
+}
+
+.logintxt {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #000000;
+}
+
+/* isi area */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1158px;
+    /* height: 500px; */
+    margin-top: 100px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 68px;
+    /* identical to box height */
+    color: #000000;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 50px;
+    margin: 10.5px 0px;
+}
+
+.garis {
+
+    width: 325px;
+
+    border: 3px solid #000000;
+    transform: rotate(0.26deg);
+    /* Inside Auto Layout */
+    flex: none;
+    flex-grow: 0;
+    margin: 8px 0px;
+    background-color: black;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 37px;
+    text-align: justify;
+    color: #000000;
+    /* Inside Auto Layout */
+    flex: none;
+    flex-grow: 0;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+.virus1 {
+    position: relative;
+    background-image: url(/image/Virus1.png);
+    width: 214px;
+    height: 150px;
+    background-repeat: no-repeat;
+    left: 500px;
+    bottom: 320px;
+}
+
+.virus2 {
+    position: relative;
+    background-image: url(/image/Virus2.png);
+    width: 135px;
+    height: 110px;
+    background-repeat: no-repeat;
+    left: 120px;
+    bottom: 170px;
+}
+
+.virus3 {
+    position: relative;
+    background-image: url(/image/Virus3.png);
+    width: 187px;
+    height: 130px;
+    background-repeat: no-repeat;
+    right: 450px;
+    bottom: 150px;
+}
+
+.virus4 {
+    position: relative;
+    background-image: url(/image/Virus4.png);
+    width: 96px;
+    height: 70px;
+    background-repeat: no-repeat;
+    left: 20px;
+    bottom: 200px;
+}
+
+.orang {
+    position: relative;
+    background-image: url(/image/gambar.png);
+    width: 359px;
+    height: 288px;
+    background-repeat: no-repeat;
+    bottom: 280px;
+    left: 420px;
+}
+
+/* footer area */
+
+
+.footer {
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: 700;
+    height: 135px;
+    width: 100%;
+    background: #331849;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+}
+
+.connect {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: auto;
+    margin-left: 2rem;
+    text-align: center;
+    gap: 2px;
+}
+
+.contact {
+    margin: auto;
+    margin-right: 5rem;
+}
+
+.baris {
+    display: grid;
+    grid-template-columns: 10% 85%;
+    padding: 10px;
+}
+
+.rightfooter {
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+
+.contus {
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}

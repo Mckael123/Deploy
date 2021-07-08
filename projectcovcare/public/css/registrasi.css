@@ -1,0 +1,397 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+/* body {
+  font-family: 'Poppins', sans-serif;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    background: #E0C1E6;
+    width: 100vw;
+    height: 100vh;
+}
+
+#header {
+    width: 100%;
+    height: 8.5%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.box {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+    padding-bottom: 50px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 700px;
+    left: 0px;
+    right: 0px;
+    margin-top: 38px;
+}
+
+.LOGO-form {
+    /* position: absolute; */
+    margin-top: 10px;
+    width: 85px;
+    height: 62px;
+    /* left: 581px;
+    top: 4px;*/
+}
+
+.head-form {
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    width: 100vw;
+    height: 44px;
+    margin-top: 0px;
+    /* left: 0px;
+    top: 0px; */
+    background: #714E8E;
+}
+
+#garis-line {
+    /* position: relative; */
+    width: 155px;
+    height: 5px;
+    /* left: 320px;
+    top: 79px; */
+    background: #3A3939;
+}
+
+#title {
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    flex-grow: 0;
+    margin: 15px 0px;
+    gap: 13px;
+
+}
+
+#judul {
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 12px 0px;
+}
+
+#konten {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    gap: 15px;
+    width: 100%;
+}
+
+.foot-form {
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 6px 55px; */
+    background: #331849;
+    /* Inside Auto Layout */
+    flex: none;
+    width: 100%;
+    height: fit-content;
+    flex-grow: 0;
+    margin: 56px 0px;
+
+}
+
+.txt-bawah {
+
+    /* position: absolute; */
+    width: 235px;
+    height: 22px;
+    /* left: 507px;
+    top: 521px; */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    color: #ACACAC;
+}
+
+#connect-sosmed {
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    width: 196px;
+    height: 73px;
+    padding: 5px;
+}
+
+#sosmed-icons {
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+
+    flex: none;
+
+    flex-grow: 0;
+    margin: 7px 0px;
+    gap: 20px;
+}
+
+#contact-sosmed {
+    /* Inside Auto Layout */
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 34px;
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    width: 230px;
+    height: 120px;
+}
+
+#contact-detail {
+    /* Inside Auto Layout */
+    flex: none;
+    flex-grow: 0;
+    margin: 6px 0px;
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 11px;
+    /* width: 180px; */
+    height: 9px;
+}
+
+.facebook-icons {
+
+    /* position: absolute; */
+    width: 32px;
+    height: 32px;
+    /* left: 114px;
+    top: 50px; */
+}
+
+.intagram-icons {
+
+    /* position: absolute; */
+    width: 32px;
+    height: 32px;
+    /* left: 60px;
+    top: 50px; */
+}
+
+.h3-foot {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #FFFFFF;
+    /* Inside Auto Layout */
+    flex: none;
+    width: 196px;
+    height: 36px;
+    flex-grow: 0;
+}
+
+.contact-icons {
+
+    /* position: absolute; */
+    width: 7px;
+    height: 10px;
+    /* left: 900px;
+    top: 33px; */
+}
+
+#msg-contact {
+    /* Inside Auto Layout */
+    flex: none;
+
+    flex-grow: 0;
+    margin: 9px 0px;
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    /* width: 220.33px;
+    height: 24px; */
+
+}
+
+.text-p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 24px;
+    /* width: 174.9px;
+    height: 18.33px; */
+}
+
+#phone-contact {
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* margin: 12px 0px; */
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+#input-group {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    flex-grow: 0;
+    /* margin: 15px 0px; */
+    gap: 10px;
+    width: 50%;
+}
+
+.input-field {
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 15px;
+    background: #FFFFFF;
+    border: 2px solid #ACACAC;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    /* margin: 15px 0px; */
+    width: 100%;
+}
+
+.submit-btn {
+    /* position: absolute; */
+    width: 155px;
+    height: 50px;
+    background: #331849;
+    border-radius: 7px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background: #6a3992;
+}
+#sign-login {
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    flex-grow: 0;
+
+}
+
+#sign {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FABA18;
+
+    /* Inside Auto Layout */
+    flex: none;
+    flex-grow: 0;
+    transition: all ease 0.5s;
+}
+#sign:hover{
+    color: #ca940c;
+}

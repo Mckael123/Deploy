@@ -1,0 +1,242 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
+/* body {
+  font-family: 'Lato', sans-serif;
+} */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFF;
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* header area */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    background: #63338A;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 80px;
+    font-weight: 700;
+}
+
+.logo {
+    width: 76px;
+    height: 62px;
+    left: 40px;
+    top: 8.5px;
+    margin: auto;
+}
+
+.header .inactive {
+    color: white;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+
+}
+
+.header .inactive:hover {
+    color: #ffa700;
+}
+
+.humicon {
+    width: 46px;
+    height: 46px;
+    right: 40px;
+    top: 11px;
+    margin: auto;
+}
+
+.humicon img{
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    vertical-align: middle;
+}
+.login {
+    width: 85px;
+    height: 50px;
+    left: 1176px;
+    top: 12px;
+    background: #FABA18;
+    border-radius: 80px;
+    margin: auto;
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+.login:active {
+    background: #D39A07;
+}
+
+.logintxt {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #000000;
+}
+
+/* area isi */
+.content {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1097px;
+   
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    text-align: justify;
+    color: #000000;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 26px 0px;
+}
+
+.image {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 200px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: justify;
+
+    color: #000000;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 34px 0px;
+}
+
+p1 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #000000;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 10px;
+}
+
+p2 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+
+    color: #000000;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 15px;
+}
+
+/* footer area */
+
+
+.footer {
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: 700;
+    height: 135px;
+    width: 100%;
+    background: #331849;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 200px;
+}
+
+.connect {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: auto;
+    margin-left: 2rem;
+    text-align: center;
+    gap: 2px;
+}
+
+.contact {
+    margin: auto;
+    margin-right: 5rem;
+}
+
+.baris {
+    display: grid;
+    grid-template-columns: 10% 85%;
+    padding: 10px;
+}
+
+.rightfooter {
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+
+.contus {
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
